@@ -10,7 +10,9 @@ namespace DynamicProgramming
     {
         static void Main(string[] args)
         {
-            FibMemoization.Run();
+            //FibMemoization.Run();
+            GridTravelerMemoization.Run();
+
 
         }
     }
