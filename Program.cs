@@ -11,7 +11,8 @@ namespace DynamicProgramming
         static void Main(string[] args)
         {
             //FibMemoization.Run();
-            GridTravelerMemoization.Run();
+            //GridTravelerMemoization.Run();
+            CanSumMemoization.Run();
 
 
         }
