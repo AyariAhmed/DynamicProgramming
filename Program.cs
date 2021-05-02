@@ -12,7 +12,8 @@ namespace DynamicProgramming
         {
             //FibMemoization.Run();
             //GridTravelerMemoization.Run();
-            CanSumMemoization.Run();
+            //CanSumMemoization.Run();
+            HowSumMemoization.Run();
 
 
         }
