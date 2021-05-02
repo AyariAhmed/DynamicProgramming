@@ -7,7 +7,7 @@ namespace DynamicProgramming
 {
     class FibMemoization
     {
-        //Time : 2^n
+        //Time : n
         //Space : n
         private static readonly Dictionary<int, long> dict = new Dictionary<int, long>()
         {
