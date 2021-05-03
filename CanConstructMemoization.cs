@@ -6,6 +6,14 @@ namespace DynamicProgramming
 {
     class CanConstructMemoization
     {
+
+        //Brute Force
+        // Time = wordbank.length^(target.length) * target.length
+        // Space = target.length^2
+
+        //Memoization
+        // Time : wordbank.length * target.length^2
+        // Space = target.length^2
         public static bool CanConstruct(string target, List<string> wordBank, Dictionary<string, bool> memo = null)
         {
             memo = memo ?? new Dictionary<string, bool>();
@@ -16,11 +24,11 @@ namespace DynamicProgramming
             {
                 if (target.StartsWith(subString)) // You can only remove prefixes
                 {
-                    var newString = target.Remove(0, subString.Length);
+                    var suffix = target.Remove(0, subString.Length);
 
-                    if (CanConstruct(newString, wordBank, memo))
+                    if (CanConstruct(suffix, wordBank, memo))
                     {
-                        memo[newString] = true;
+                        memo[suffix] = true;
                         return true;
                     }
                 }
