@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BestSumMemoization.cs" />
+    <Compile Include="CanConstructMemoization.cs" />
     <Compile Include="CanSumMemoization.cs" />
     <Compile Include="FibMemoization.cs" />
     <Compile Include="GridTravelerMemoization.cs" />

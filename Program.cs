@@ -14,8 +14,8 @@ namespace DynamicProgramming
             //GridTravelerMemoization.Run();
             //CanSumMemoization.Run();
             //HowSumMemoization.Run();
-            BestSumMemoization.Run();
-
+            //BestSumMemoization.Run();
+            CanConstructMemoization.Run();
 
         }
     }
