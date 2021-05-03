@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BestSumMemoization.cs" />
     <Compile Include="CanSumMemoization.cs" />
     <Compile Include="FibMemoization.cs" />
     <Compile Include="GridTravelerMemoization.cs" />

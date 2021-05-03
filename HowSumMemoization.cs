@@ -8,6 +8,7 @@ namespace DynamicProgramming
     {
         //Time : targetSum * numbers_arrayLength * targetSum <- last one is for array copying
         //Space : TargetSum * TargetSum
+
         public static List<int> HowSum(int targetSum, List<int> numbers, Dictionary<int, List<int>> memo = null)
         {
             memo = memo ?? new Dictionary<int, List<int>>();
@@ -20,9 +21,11 @@ namespace DynamicProgramming
                 var result = HowSum(remainder, numbers, memo);
                 if (result != null)
                 {
-                    result.Add(n); // result array will be at most of size first_targetSum
-                    memo[targetSum] = result;
-                    return result;
+                    var res = new List<int>(result);
+                    res.Add(n);
+                    // res array will be at most of size first_targetSum
+                    memo[targetSum] = res;
+                    return res;
                 }
             }
 
@@ -34,7 +37,7 @@ namespace DynamicProgramming
 
         public static void Run()
         {
-            List<int> array = new List<int>() { 2, 3 };
+            List<int> array = new List<int>() { 2, 4 };
             List<int> array2 = new List<int>() { 5, 3, 4, 7 };
             List<int> array3 = new List<int>() { 2, 4 };
             List<int> array4 = new List<int>() { 2, 3, 5 };
