@@ -15,7 +15,8 @@ namespace DynamicProgramming
             //CanSumMemoization.Run();
             //HowSumMemoization.Run();
             //BestSumMemoization.Run();
-            CanConstructMemoization.Run();
+            //CanConstructMemoization.Run();
+            CountConstructMemoization.Run();
 
         }
     }
