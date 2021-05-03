@@ -45,13 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BestSumMemoization.cs" />
-    <Compile Include="CanConstructMemoization.cs" />
-    <Compile Include="CanSumMemoization.cs" />
-    <Compile Include="CountConstructMemoization.cs" />
-    <Compile Include="FibMemoization.cs" />
-    <Compile Include="GridTravelerMemoization.cs" />
-    <Compile Include="HowSumMemoization.cs" />
+    <Compile Include="Memoization\AllConstructMemoization.cs" />
+    <Compile Include="Memoization\BestSumMemoization.cs" />
+    <Compile Include="Memoization\CanConstructMemoization.cs" />
+    <Compile Include="Memoization\CanSumMemoization.cs" />
+    <Compile Include="Memoization\CountConstructMemoization.cs" />
+    <Compile Include="Memoization\FibMemoization.cs" />
+    <Compile Include="Memoization\GridTravelerMemoization.cs" />
+    <Compile Include="Memoization\HowSumMemoization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,5 +62,6 @@
       <SubType>Form</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
