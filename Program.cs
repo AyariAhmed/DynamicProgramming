@@ -24,7 +24,8 @@ namespace DynamicProgramming
             //GridTravelerTabulation.Run();
             //CanSumTabulation.Run();
             //HowSumTabulation.Run();
-            BestSumTabulation.Run();
+            //BestSumTabulation.Run();
+            CanConstructTabulation.Run();
 
         }
     }

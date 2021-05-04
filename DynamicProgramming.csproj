@@ -56,6 +56,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tabulation\BestSumTabulation.cs" />
+    <Compile Include="Tabulation\CanConstructTabulation.cs" />
     <Compile Include="Tabulation\CanSumTabulation.cs" />
     <Compile Include="Tabulation\FibTabulation.cs" />
     <Compile Include="Tabulation\GridTravelerTabulation.cs" />
