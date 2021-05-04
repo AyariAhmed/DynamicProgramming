@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace DynamicProgramming
+namespace DynamicProgramming.Memoization
 {
     public class CanSumMemoization
     {

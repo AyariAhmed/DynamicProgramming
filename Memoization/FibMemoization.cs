@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace DynamicProgramming
+namespace DynamicProgramming.Memoization
 {
     class FibMemoization
     {

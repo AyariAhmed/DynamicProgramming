@@ -5,7 +5,7 @@ using System.Linq;
 
 
 
-namespace DynamicProgramming
+namespace DynamicProgramming.Memoization
 {
     class AllConstructMemoization
     {

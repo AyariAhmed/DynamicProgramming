@@ -19,14 +19,13 @@ namespace DynamicProgramming.Tabulation
             {
                 if (array[i])
                 {
-                for (int j = 0; j < numbers.Count; j++)
-                {
+                    for (int j = 0; j < numbers.Count; j++)
+                    {
                         if (i + numbers[j] <= targetSum) array[i + numbers[j]] = true;
                     }
                 }
-                }
-
             }
+
             return array[targetSum];
         }
 
@@ -36,8 +35,7 @@ namespace DynamicProgramming.Tabulation
             cw(CanSum(7, new List<int>() { 5, 3, 4 }));
             cw(CanSum(7, new List<int>() { 3 }));
             cw(CanSum(0, new List<int>() { 5 }));
-            cw(CanSum(150, new List<int>() { 126, 6, 27 }));
-
+            cw(CanSum(300, new List<int>() { 7, 14 }));
         }
     }
 }
