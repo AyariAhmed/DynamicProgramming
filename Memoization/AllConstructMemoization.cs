@@ -52,28 +52,17 @@ namespace DynamicProgramming
             List<string> list1 = new List<string>() { "purp", "p", "ur", "le", "purpl" };
             List<string> list2 = new List<string>() { "ab", "abc", "cd", "def", "abcd", "ef", "c" };
             List<string> list3 = new List<string>() { "bo", "rd", "ate", "t", "ska", "sk", "boar" };
-            List<string> list4 = new List<string>() { "a", "aa", "aaa", "aaaa" };
-            Print("purple", list1);
-            Print("abcdef", list2);
-            Print("skateboard", list3);
-            Print("aaaaaaaaaaaaaaaaaaaaaaaaaaz", list4);
 
         }
 
-        public static void Print(string target, List<string> words)
         {
-            var list = AllConstruct(target, words);
-
-
             foreach (var subList in list)
             {
-                Console.Write("[ ");
                 foreach (var e in subList)
                 {
-                    Console.Write($"{e} ");
-                }
-                Console.WriteLine("]");
             }
+            Console.WriteLine("]");
+        }
 
             Console.WriteLine("---------------------------------------------------");
         }
