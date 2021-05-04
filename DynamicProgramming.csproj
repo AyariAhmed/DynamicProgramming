@@ -58,8 +58,10 @@
     <Compile Include="Tabulation\BestSumTabulation.cs" />
     <Compile Include="Tabulation\CanConstructTabulation.cs" />
     <Compile Include="Tabulation\CanSumTabulation.cs" />
+    <Compile Include="Tabulation\CountConstructTabulation.cs" />
     <Compile Include="Tabulation\FibTabulation.cs" />
     <Compile Include="Tabulation\GridTravelerTabulation.cs" />
+    <Compile Include="Tabulation\AllConstructTabulation.cs" />
     <Compile Include="Tabulation\HowSumTabulation.cs" />
   </ItemGroup>
   <ItemGroup>

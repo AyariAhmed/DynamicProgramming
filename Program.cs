@@ -25,7 +25,9 @@ namespace DynamicProgramming
             //CanSumTabulation.Run();
             //HowSumTabulation.Run();
             //BestSumTabulation.Run();
-            CanConstructTabulation.Run();
+            //CanConstructTabulation.Run();
+            CountConstructTabulation.Run();
+
 
         }
     }
