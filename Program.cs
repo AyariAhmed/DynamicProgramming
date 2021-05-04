@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DynamicProgramming.Tabulation;
 
 namespace DynamicProgramming
 {
@@ -17,7 +18,9 @@ namespace DynamicProgramming
             //BestSumMemoization.Run();
             //CanConstructMemoization.Run();
             //CountConstructMemoization.Run();
-            AllConstructMemoization.Run();
+            //AllConstructMemoization.Run();
+            FibTabulation.Run();
+            FibTabulation.Run();
         }
     }
 }
