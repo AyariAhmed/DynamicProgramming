@@ -20,7 +20,8 @@ namespace DynamicProgramming
             //CountConstructMemoization.Run();
             //AllConstructMemoization.Run();
             //FibTabulation.Run();
-            GridTravelerTabulation.Run();
+            //GridTravelerTabulation.Run();
+            CanSumTabulation.Run();
 
         }
     }
